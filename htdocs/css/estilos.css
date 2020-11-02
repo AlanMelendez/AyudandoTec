@@ -129,6 +129,30 @@ main .sobre-nosotros{
 .Carreras{
     background: #f2f2f2;
 }
+.Registros{
+    text-align: center;
+    
+}
+.btn{
+ 
+    display: inline-flex; 
+    flex-wrap: wrap;
+    margin-right: 10px;
+    padding: 10%;
+
+}
+.btn> a{
+    padding: 10px 20px; /*Arriba y abajo*/
+    font-size: 30px;
+    text-decoration: none;
+    background-color: #9c0922;
+    color: white!important;
+    cursor: pointer;
+    border-radius: 10px; /*Borde redondo del boton*/
+    
+}
+
+
 
 .galeria-port{
     display: flex;
@@ -422,5 +446,8 @@ footer{
 
     .titulo-final{
         font-size: 20px;
+    }
+    .Registros{
+        text-align: center;
     }
 }
