@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2? family = Trispace: wght @ 600 & display = swap');
+.Mainboard {
+    font-family: 'Trispace', sans-serif;
+    position: relative;
+    width: 300px;
+    background-color: darkred;
+    padding: 15%;
+    margin: 60px auto 60px;
+}
+
+.pg1 {
+    width: 200px;
+    background-color: white;
+    margin: 0px auto 50px;
+    padding: 70px;
+    border-radius: 25%;
+}
+
+.pg2>h2 {
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+
+/* FORMULARIO */
+
+.Formulario {
+    text-align: center;
+    padding: 10px;
+}
+
+#email {
+    margin: 10px auto 10px;
+}
+
+#password {
+    margin: 10px auto 10px;
+}
+
+.Button>div {
+    display: block;
+}
+
+#Botones {
+    background-color: white;
+    text-align: center;
+    float: left;
+    display: inline-block;
+    transition-duration: 0, 4s;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid red
+}
+
+#Botones:hover {
+    background-color: red;
+    /* Green */
+    color: white;
+    padding: 10px;
+}
