@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2? family = Trispace: wght @ 600 & display = swap');
 body {
     width: auto;
-    height: 0;
-    background-color: rgba(255, 86, 80, 0.849);
+    height: auto;
+    background-color: white;
     position: relative;
     padding: 0px 80px 0px 80px;
 }
@@ -13,8 +13,9 @@ body {
 .Navigation {
     text-align: center;
     font-size: 20px;
-    background-color: burlywood;
+    background-color: white;
     text-decoration: none;
+    border: 1pt solid rgb(187, 184, 181);
 }
 
 
@@ -23,20 +24,20 @@ body {
 .main {
     position: relative;
     width: auto;
-    height: 800px;
-    background-color: blueviolet;
+    height: 650px;
+    background-color: white;
     padding: 0px 40px 0px 40px;
     text-align: center;
 }
 
 .Cont {
     padding: 40px;
-    background-color: brown;
+    background-color: white;
 }
 
 .Cont2 {
     padding: 20px 90pt 0 90pt;
-    background-color: coral;
+    background-color: white;
     text-align: center;
     font-weight: bold;
 }
@@ -53,18 +54,18 @@ body {
 /* FORMULARIO */
 
 .Contenedor-Formulario {
-    text-align: justify;
-    background-color: darkorange;
+    text-align: center;
+    background-color: #c0c0c05e;
     padding: 40px;
 }
 
 .Form {
-    background-color: indigo;
-    padding: 20px 40px 20px 40px;
+    background-color: white;
+    padding: 20px 40px 0px 40px;
 }
 
 .Botones {
-    background-color: greenyellow;
+    background-color: white;
     padding: 20px;
     text-align: center;
 }
