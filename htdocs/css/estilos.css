@@ -11,51 +11,53 @@ body {
 .contenedor {
     padding: 60px 0;
     width: 90%;
-    max-width: 1000px;
+    max-width: 2000px;
     margin: auto;
     overflow: hidden;
 }
 
 .titulo {
-    color:#9c0922;
+    color: #181616;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
 }
+
 
 /* Header */
 
 header {
     width: 100%;
     height: 700px;
-    background: #db313a;
+    background: #dbd2d3;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(340, 95%, 80%, 0.459), hsla(355, 43%, 49%, 0.664)), url(../img/portada.jpeg);
+    background: -webkit-linear-gradient(to right, hsla(340, 95%, 80%, 0.459), hsla(355, 43%, 49%, 0.664)), url(../img/footer1.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(0, 45%, 52%, 0.664)), url(../img/portada.jpeg);
+    background: linear-gradient(to right, hsla(338, 17%, 87%, 0.459), hsla(0, 2%, 10%, 0.664)), url(../img/footer1.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
     position: relative;
 }
 
-nav{
+nav {
     text-align: center;
     padding: 30px 50px 0 0;
 }
 
-nav > a{
-    color:#fff;
+nav>a {
+    color: #fff;
     font-weight: 300;
     text-decoration: none;
     margin-right: 10px;
+    font-size: 30pt;
 }
 
-nav > a:hover{
+nav>a:hover {
     text-decoration: underline;
 }
 
-header .textos-header{
+header .textos-header {
     display: flex;
     height: 430px;
     width: 100%;
@@ -65,47 +67,49 @@ header .textos-header{
     text-align: center;
 }
 
-.textos-header h1{
+.textos-header h1 {
     font-size: 50px;
-    color:#fff;
+    color: #fff;
 }
 
-.textos-header h2{
+.textos-header h2 {
     font-size: 30px;
     font-weight: 300;
-    color:#fff;
+    color: #fff;
 }
 
-.wave{
+.wave {
     position: absolute;
     bottom: 0;
     width: 100%;
 }
 
+
 /* About us */
 
-main .sobre-nosotros{
+main .sobre-nosotros {
     padding: 30px 0 60px 0;
 }
-.contenedor-sobre-nosotros{
+
+.contenedor-sobre-nosotros {
     display: flex;
     justify-content: space-evenly;
 }
 
-.imagen-about-us{
+.imagen-about-us {
     width: 28%;
 }
 
-.sobre-nosotros .contenido-textos{
+.sobre-nosotros .contenido-textos {
     width: 48%;
 }
 
-.contenido-textos h3{
+.contenido-textos h3 {
     margin-bottom: 15px;
 }
 
-.contenido-textos h3 span{
-    background: #c07b87;
+.contenido-textos h3 span {
+    background: #6eb3eb;
     color: #fff;
     border-radius: 50%;
     display: inline-block;
@@ -117,50 +121,48 @@ main .sobre-nosotros{
     margin-right: 5px;
 }
 
-.contenido-textos p{
+.contenido-textos p {
     padding: 0px 0px 30px 15px;
     font-weight: 300;
     text-align: justify;
 }
 
+
 /* Galeria */
 
-
-.Carreras{
+.Carreras {
     background: #f2f2f2;
 }
-.Registros{
+
+.Registros {
     text-align: center;
-    
 }
-.btn{
- 
-    display: inline-flex; 
+
+.btn {
+    display: inline-flex;
     flex-wrap: wrap;
     margin-right: 10px;
     padding: 10%;
-
 }
-.btn> a{
-    padding: 10px 20px; /*Arriba y abajo*/
+
+.btn>a {
+    padding: 10px 20px;
+    /*Arriba y abajo*/
     font-size: 30px;
     text-decoration: none;
     background-color: #9c0922;
     color: white!important;
-    cursor: pointer;
-    border-radius: 10px; /*Borde redondo del boton*/
-    
+    border-radius: 10px;
+    /*Borde redondo del boton*/
 }
 
-
-
-.galeria-port{
+.galeria-port {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.imagen-port{
+.imagen-port {
     width: 24%;
     margin-bottom: 10px;
     overflow: hidden;
@@ -169,14 +171,14 @@ main .sobre-nosotros{
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 }
 
-.imagen-port > img{
+.imagen-port>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
 
-.hover-galeria{
+.hover-galeria {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -190,97 +192,100 @@ main .sobre-nosotros{
     flex-direction: column;
 }
 
-.hover-galeria img{
+.hover-galeria img {
     width: 50px;
 }
 
-.hover-galeria p{
+.hover-galeria p {
     color: #fff;
 }
 
-.imagen-port:hover .hover-galeria{
+.imagen-port:hover .hover-galeria {
     transform: scale(1);
 }
 
+
 /* Clients */
 
-.cards{
+.cards {
     display: flex;
     justify-content: space-evenly;
 }
 
-.cards .card{
-    background: #c07b87;
+.cards .card {
+    background: #55b6b9;
     display: flex;
     width: 46%;
-    height: 200px;
+    height: 300px;
     align-items: center;
     justify-content: space-evenly;
-    border-radius: 5px;
+    border-radius: 55px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
 }
 
-.cards .card img{
+.cards .card img {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border: 3px solid #fff;
+    border: 5px solid #fff;
     border-radius: 50%;
     display: block;
 }
 
-.cards .card > .contenido-texto-card{
+.cards .card>.contenido-texto-card {
     width: 60%;
+    height: auto;
     color: #fff;
 }
 
-.cards .card > .contenido-texto-card p{
+.cards .card>.contenido-texto-card p {
     font-weight: 300;
-    padding-top: 5px;
+    padding-top: 5px 10px 10px 10px;
 }
+
 
 /*  Our team */
 
-.about-services{
+.about-services {
     background: #f2f2f2;
     padding-bottom: 30px;
 }
 
-
-.servicio-cont{
-    display:flex;
+.servicio-cont {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.servicio-ind{
+.servicio-ind {
     width: 48%;
     text-align: center;
 }
 
-.servicio-ind img{
+.servicio-ind img {
     width: 60%;
 }
 
-.servicio-ind h3{
+.servicio-ind h3 {
     margin: 10px 0;
 }
 
-.servicio-ind p{
+.servicio-ind p {
     font-weight: 300;
     text-align: justify;
 }
 
+
 /* footer */
 
-footer{
+footer {
     background: #414141;
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;
 }
 
-.contenedor-footer{
+.contenedor-footer {
     display: flex;
     width: 90%;
     justify-content: space-evenly;
@@ -289,165 +294,171 @@ footer{
     border-bottom: 1px solid #ccc;
 }
 
-.content-foo{
+.content-foo {
     text-align: center;
 }
 
-.content-foo h4{
+.content-foo h4 {
     color: #fff;
     border-bottom: 3px solid #c07b87;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
-.content-foo p{
+.content-foo p {
     color: #ccc;
 }
 
-.titulo-final{
+.titulo-final {
     text-align: center;
     font-size: 24px;
     margin: 20px 0 0 0;
     color: #9e9797;
 }
+
+#butonAn {
+    transition-duration: 0.4s;
+    width: 120px;
+    background-color: #55b6b9;
+    text-align: center;
+    float: left;
+    display: inline-block;
+    transition-duration: 0, 4s;
+    margin-right: 20px;
+    margin-left: 40px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    border-radius: 90px;
+    border: 2px solid white;
+    color: white;
+    outline: none;
+}
+
+#butonAn:hover {
+    background-color: white;
+    /* Green */
+    color: black;
+    padding: 10px;
+}
+
+#h1b {
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+
 /* Querys pagina */
-@media screen and (max-width:900px){ 
-    header{
+
+@media screen and (max-width:900px) {
+    header {
         background-position: center;
     }
-
-    .contenedor-sobre-nosotros{
+    .contenedor-sobre-nosotros {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-
-    .sobre-nosotros .contenido-textos{
+    .sobre-nosotros .contenido-textos {
         width: 90%;
     }
-
-    .imagen-about-us{
+    .imagen-about-us {
         width: 90%;
     }
-
     /* Galeria */
-
-    .imagen-port{
+    .imagen-port {
         width: 44%;
     }
-
     /* Clientes */
-
-    .cards{
+    .cards {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-
-    .cards .card{
+    .cards .card {
         width: 90%;
     }
-
-    .cards .card:first-child{
+    .cards .card:first-child {
         margin-bottom: 30px;
     }
-
     /* servicios */
-
-    .servicio-cont{
+    .servicio-cont {
         justify-content: center;
         flex-direction: column;
     }
-
-    .servicio-ind{
+    .servicio-ind {
         width: 100%;
         text-align: center;
     }
-
-    .servicio-ind:nth-child(1), .servicio-ind:nth-child(2){
+    .servicio-ind:nth-child(1),
+    .servicio-ind:nth-child(2) {
         margin-bottom: 60px;
     }
-
-    .servicio-ind img{
+    .servicio-ind img {
         width: 90%;
     }
 }
 
-@media screen and (max-width:500px){
-    nav{
+@media screen and (max-width:500px) {
+    nav {
         text-align: center;
         padding: 30px 0 0 0;
     }
-
-    nav > a{
+    nav>a {
         margin-right: 5px;
     }
-
-    .textos-header h1{
+    .textos-header h1 {
         font-size: 35px;
     }
-
-    .textos-header h2{
+    .textos-header h2 {
         font-size: 20px;
     }
-
     /* ABOUT US */
-
-    .imagen-about-us{
+    .imagen-about-us {
         margin-bottom: 60px;
         width: 99%;
     }
-
-    .sobre-nosotros .contenido-textos{
+    .sobre-nosotros .contenido-textos {
         width: 95%;
     }
-
     /* Galeria */
-
-    .imagen-port{
+    .imagen-port {
         width: 95%;
     }
-
     /* Clients */
-
-    .cards .card{
+    .cards .card {
         height: 450px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
-    .cards .card img{
+    .cards .card img {
         width: 90px;
         height: 90px;
     }
-
     /* Footer */
-
-    .contenedor-footer{
+    .contenedor-footer {
         flex-direction: column;
         border: none;
     }
-
-    .content-foo{
+    .content-foo {
         margin-bottom: 20px;
         text-align: center;
     }
-
-    .content-foo h4{
+    .content-foo h4 {
         border: none;
     }
-
-    .content-foo p{
+    .content-foo p {
         color: #ccc;
         border-bottom: 1px solid #f2f2f2;
         padding-bottom: 20px;
     }
-
-    .titulo-final{
+    .titulo-final {
         font-size: 20px;
     }
-    .Registros{
+    .Registros {
         text-align: center;
     }
 }
